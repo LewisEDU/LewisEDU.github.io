@@ -1,0 +1,29 @@
+
+body{
+    background: url("../media/landing-sm.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@media screen and (min-width: 920px){
+    body{
+        background: url("../media/landing-md.jpg")  no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover ;
+        background-size: cover ;
+        -o-background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1086px){
+    body{
+        background: url("../media/landing-lg.jpg")  no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+  
