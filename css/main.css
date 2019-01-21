@@ -55,7 +55,7 @@ body,html{
         -o-background-size: cover;
     }
 
-    .landing{
+    .landing h1{
         padding-top: 5%;
     }
 }
