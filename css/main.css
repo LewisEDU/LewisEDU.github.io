@@ -1,29 +1,65 @@
 
-body{
+body,html{
+    height: 100%;
+}
+.bg-1{
+    height: 100%;
     background: url("../media/landing-sm.jpg")  no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.landing{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: .5em;
+}
+
+.landing h1{
+    font-weight: 100;
+    font-size: 5em;
+    padding-top: 25%;
+}
+
+.landing h2{
+    font-weight: 300;
+}
+
 @media screen and (min-width: 920px){
-    body{
+    .bg-1{
         background: url("../media/landing-md.jpg")  no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover ;
         background-size: cover ;
         -o-background-size: cover;
     }
+
+    .landing{
+        font-size: 1em;
+    }
+
+    .landing h1{
+        padding-top: 20%;
+    }
 }
 
 @media screen and (min-width: 1086px){
-    body{
+    .bg-1{
         background: url("../media/landing-lg.jpg")  no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
     }
+
+    .landing{
+        padding-top: 5%;
+    }
 }
+
+
 
   
