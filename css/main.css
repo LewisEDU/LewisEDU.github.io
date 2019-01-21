@@ -13,6 +13,8 @@ body,html{
 
 .landing{
     font-family: 'Work Sans', sans-serif;
+    position: relative;
+    top:45%;
     font-weight: 100;
     text-align: center;
     font-size: .5em;
@@ -21,7 +23,6 @@ body,html{
 .landing h1{
     font-weight: 100;
     font-size: 5em;
-    padding-top: 25%;
 }
 
 .landing h2{
@@ -40,10 +41,6 @@ body,html{
     .landing{
         font-size: 1em;
     }
-
-    .landing h1{
-        padding-top: 20%;
-    }
 }
 
 @media screen and (min-width: 1086px){
@@ -53,10 +50,6 @@ body,html{
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
-    }
-
-    .landing h1{
-        padding-top: 5%;
     }
 }
 
