@@ -1,0 +1,58 @@
+
+body,html{
+    height: 100%;
+}
+.bg-1{
+    height: 100%;
+    background: url("../media/landing-sm.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.landing{
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    top:45%;
+    font-weight: 100;
+    text-align: center;
+    font-size: .5em;
+}
+
+.landing h1{
+    font-weight: 100;
+    font-size: 5em;
+}
+
+.landing h2{
+    font-weight: 300;
+}
+
+@media screen and (min-width: 920px){
+    .bg-1{
+        background: url("../media/landing-md.jpg")  no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover ;
+        background-size: cover ;
+        -o-background-size: cover;
+    }
+
+    .landing{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1086px){
+    .bg-1{
+        background: url("../media/landing-lg.jpg")  no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+
+
+  
