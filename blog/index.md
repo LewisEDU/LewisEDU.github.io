@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Blog
+title: Lewis
 ---
 <h1>Recent Projects</h1>
 
 <ul>
   {% for repository in site.github.public_repositories %}
   <li>
-  * [{{ repository.name }}]({{ repository.html_url }})
+  <h1>{{ repository.project_title }}</h1>
+  <h2>{{ repository.project_tagline }}</h1>
+  <h3>({{ repository.html_url }})</h3>
+  
   </li>
   {% endfor %}
 </ul>
