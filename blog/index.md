@@ -2,13 +2,12 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h1>Recent Projects</h1>
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
+  <li>
+  {% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+  </li>
   {% endfor %}
 </ul>
