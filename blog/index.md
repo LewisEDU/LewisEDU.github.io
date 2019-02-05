@@ -10,7 +10,7 @@ title: Lewis
     <h1>{{ repository.name }}</h1>
     <h2>{{ repository.description }}</h2>
     <h2>{{ repository.created_at}}<h2>
-    <h3>({{ repository.html_url }})</h3>
-  </li>
+    [Link Text]({{ repository.html_url }})
   {% endfor %}
+  </li>
 </ul>
